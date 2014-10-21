@@ -2,7 +2,7 @@
 ;; Author: Alexandre Rademaker
 
 #+macosx
-(require :agraph "/Users/arademaker/agraph-client/agraph4.fasl")
+(require :agraph "/Applications/agraph-client/agraph4.fasl")
 
 #-macosx
 (progn 
