@@ -2,10 +2,10 @@
 ;; Author: Alexandre Rademaker
 
 #+macosx
-(require :agraph "/Applications/agraph-client/agraph4.fasl")
+(require :agraph "/Applications/agraph-client/agraph5.fasl")
 
 #-macosx
 (progn 
-  (require :agraph "/usr/local/agraph-client/agraph4.fasl")
+  (require :agraph "/usr/local/agraph-client/agraph5.fasl")
   (rename-package (find-package :cl-ppcre) "ag-cl-ppcre"))
 
