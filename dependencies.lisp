@@ -6,6 +6,6 @@
 
 #-macosx
 (progn 
-  (require :agraph "/usr/local/agraph-client/agraph5.fasl")
+  (require :agraph "/usr/local/agraph-client/agraph.fasl")
   (rename-package (find-package :cl-ppcre) "ag-cl-ppcre"))
 
